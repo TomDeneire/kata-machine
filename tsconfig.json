@@ -11,15 +11,9 @@
         "module": "commonjs",
         "baseUrl": "src",
         "paths": {
-            "@code/*": [
-                "day1/*"
-            ]
+            "@code/*": ["day1/*", "day2/*"]
         }
     },
-    "include": [
-        "./src/**/*"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules"]
 }
